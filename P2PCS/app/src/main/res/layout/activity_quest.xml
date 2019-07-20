@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_reservation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start"
+        android:background="@color/slightlyWhite">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/scrimInsetsRelativeLayout3" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+
+        <include
+                layout="@layout/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/appBar"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/message"
+                style="@style/textView"
+                android:text="@string/no_quests"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="16dp"
+                android:textAlignment="center"
+                app:layout_constraintStart_toStartOf="@+id/recycleView"
+                app:layout_constraintTop_toTopOf="@+id/recycleView"
+                app:layout_constraintBottom_toBottomOf="@+id/recycleView"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleView"
+                app:layout_constraintTop_toBottomOf="@id/appBar"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/message"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

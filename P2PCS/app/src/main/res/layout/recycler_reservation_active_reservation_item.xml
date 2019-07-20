@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/background"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_red">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/delete_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/icon_bin_white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/delete_icon"
+                android:text="@string/reservation_delete"
+                android:textColor="#fff"
+                android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:background="@drawable/border_grey"
+            android:id="@+id/foreground"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/imageCarActive"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rida"
+                            android:textSize="0sp"
+                            tools:visibility="gone"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/vehicleModel"
+                            style="@style/textView"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/endDate"
+                            style="@style/textView"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:textSize="18sp"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/hours"
+                            style="@style/textView"
+                            android:textColor="@color/black"
+                            android:layout_marginBottom="4dp"
+                            android:textSize="18sp"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/pending_reservation"
+                    android:visibility="gone"
+                    style="@style/textView"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:text="@string/pending"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+
+</FrameLayout>

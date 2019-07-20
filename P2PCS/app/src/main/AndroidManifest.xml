@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.fourteenrows.p2pcs">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.location.network"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="P2PCS"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <service
+                android:name=".services.ReservationService"
+                android:enabled="true"
+                android:exported="true">
+
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyCOC1mSTaQw8jLdmN8VD5nP_s2Bn2jqi6w"/>
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+
+        <activity
+                android:name=".activities.splash_screen.SplashScreenActivity"
+                android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.authentication.login.LoginActivity"
+                android:theme="@style/SplashScreen"/>
+        <activity
+                android:name=".activities.authentication.registration.RegistrationActivity"
+                android:theme="@style/SplashScreen"/>
+        <activity
+                android:name=".activities.reservation.add_reservation.add_reservation_vehicle.AddReservationVehicleActivity"/>
+        <activity android:name=".activities.reservation.add_reservation.AddReservationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO"/>
+
+                <data android:scheme="mailto"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.avatar.AvatarActivity"/>
+        <activity android:name=".activities.booster.BoosterActivity"/>
+        <activity android:name=".activities.car.CarActivity"/>
+        <activity android:name=".activities.car.add_car.AddCarActivity"/>
+        <activity android:name=".activities.info.InfoActivity"/>
+        <activity android:name=".activities.leaderboard.LeaderboardActivity"/>
+        <activity android:name=".activities.profile.ProfileActivity"/>
+        <activity android:name=".activities.reservation.ReservationActivity"/>
+        <activity android:name=".activities.quest.QuestActivity"/>
+        <activity android:name=".activities.shop.ShopActivity"/>
+        <activity android:name=".activities.trip.TripActivity"/>
+        <activity android:name=".activities.trip.add_trip.AddTripActivity"/>
+        <activity android:name=".activities.trip.add_trip.location_trip.LocationTripActivity"/>
+        <activity android:name=".activities.trip.add_trip.user_trip.UserAddTripActivity"/>
+        <activity android:name=".activities.car.add_car.location_car.LocationCarActivity"/>
+        <activity android:name=".activities.info.flappy.MainActivity"/>
+
+        <activity android:name=".activities.tutorial.TutorialActivity"/>
+        <receiver android:name=".services.NotificationAcceptedReceiver"/>
+
+        <receiver android:name=".services.NotificationRejectedReceiver"/>
+    </application>
+
+</manifest>

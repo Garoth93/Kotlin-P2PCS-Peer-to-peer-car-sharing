@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/background"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_blue">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/delete_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/icon_archive"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/delete_icon"
+                android:text="@string/trip_archive"
+                android:textColor="#fff"
+                android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/foreground"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_grey">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/imageCarTrip"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tid"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        tools:visibility="gone"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/info"
+                            android:layout_margin="8dp"
+                            style="@style/wrapTextView"
+                            android:fontFamily="@font/poppins_light"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/date"
+                            android:layout_margin="8dp"
+                            style="@style/wrapTextView"
+                            android:fontFamily="@font/poppins_light"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <View
+                        android:id="@+id/divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="8dp"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/wrapTextView"
+                        android:id="@+id/addressStart"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="8dp"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_light"
+                        android:textColor="@color/black"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/wrapTextView"
+                        android:id="@+id/start"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:textSize="20sp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/black"/>
+
+                <View
+                        android:id="@+id/divider2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="8dp"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/wrapTextView"
+                        android:id="@+id/addressEnd"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/wrapTextView"
+                        android:id="@+id/end"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="3dp"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/black"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+
+
+
+

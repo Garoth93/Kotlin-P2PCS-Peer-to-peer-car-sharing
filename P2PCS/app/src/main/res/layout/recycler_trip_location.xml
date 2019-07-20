@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+        android:id="@+id/tripCard"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        app:cardElevation="2dp"
+        style="@style/Widget.MaterialComponents.CardView">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:baselineAligned="true">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tripMain"
+                style="@style/textView"
+                android:textColor="@color/black"
+                android:textSize="24sp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tripSecondary"
+                style="@style/textView"
+                android:textColor="@color/moreThanGrey"
+                android:textSize="16sp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>org.powermock</group-id>
+        <name>powermock-core</name>
+        <version>1.6.6</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.powermock</group-id>
+        <name>powermock-module-junit4</name>
+        <version>1.6.6</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.2.0-beta01</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.core</group-id>
+        <name>core-ktx</name>
+        <version>1.1.0-alpha05</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.jetbrains.kotlin</group-id>
+        <name>kotlin-stdlib-jdk7</name>
+        <version>1.3.31</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-auth</name>
+        <version>17.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>rules</name>
+        <version>1.2.0-beta01</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.annotation</group-id>
+        <name>annotation</name>
+        <version>1.1.0-beta01</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-storage</name>
+        <version>17.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.2.0-beta01</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.recyclerview</group-id>
+        <name>recyclerview</name>
+        <version>1.1.0-alpha04</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.legacy</group-id>
+        <name>legacy-support-v4</name>
+        <version>1.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.powermock</group-id>
+        <name>powermock-api-mockito2</name>
+        <version>1.6.6</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.material</group-id>
+        <name>material</name>
+        <version>1.1.0-alpha06</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-firestore</name>
+        <version>19.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.constraintlayout</group-id>
+        <name>constraintlayout</name>
+        <version>2.0.0-alpha5</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-functions</name>
+        <version>17.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>support-v4</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test.ext</group-id>
+        <name>junit</name>
+        <version>1.1.1-alpha04</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-2</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.appcompat</group-id>
+        <name>appcompat</name>
+        <version>1.1.0-alpha04</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1557253360299</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1890156b-09ac-4e86-aa6c-db98c37c78f5" name="Default Changelist" comment="Aggiunti test unità">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/recycler_reservation_active_reservation_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/recycler_reservation_active_reservation_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/IntegrationTests/IntegrationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/IntegrationTests/IntegrationTests.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="P2PCS" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="P2PCS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/ModelFirebase.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/fourteenrows/p2pcs/Login/Login.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests/User.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#42#185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>p2pCS</find>
+      <find>app_name</find>
+      <find>visibili</find>
+      <find>lits\</find>
+      <find>lits</find>
+      <find>fetchD</find>
+      <find>fetchUser</find>
+      <find>insert</find>
+      <find>reset</find>
+      <find>getuserdo</find>
+      <find>builduser</find>
+      <find>active</find>
+      <find>fetchpro</find>
+      <find>uid</find>
+      <find>non hai preno</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/add_car/AddCarInteractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/ReservationView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/profile/ProfileView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/profile/ProfilePresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/FetchedVehicle.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/ActiveReservationObject.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/PastReservationObject.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarContractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/add_reservation_vehicle/VehicleObject.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_car.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/add_car/AddCarView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_reservation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/AddReservationView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/recycler_car_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/ModelUtils.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/recycler_reservation_past_reservation_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/ReservationContractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/ReservationPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/add_reservation_vehicle/AddReservationVehicleContractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/add_reservation_vehicle/AddReservationVehicleView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/recycler_add_reservation_vehicle_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/add_reservation_vehicle/AddReservationVehicleRecyclerAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/ReservationRecyclerAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/AddReservationContractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/AddReservationPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/Reservation.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/AddReservationInteractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/ReservationInteractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/add_reservation_vehicle/AddReservationVehicleInteractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/add_car/AddCarPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/edit_car/EditCarPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/edit_car/EditCarView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/CarMessage.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/FetchedVehicle.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarInteractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarRecycleAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/recycleview_no_car_message.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_car.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_reservation_vehicle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/add_reservation_vehicle/AddReservationVehiclePresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/ModelDates.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests/Utils.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests/Validator.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests/Date.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/ModelFirebase.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/IntegrationTests/IntegrationTests.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/recycler_reservation_active_reservation_item.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="6" />
+    <option name="y" value="-27" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="P2PCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PCS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PCS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PCS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PCS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PCS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PCS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="p2pcs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PCS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="p2pcs" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PCS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="p2pcs" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="reservation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="P2PCS" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="P2PCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
+          <expand>
+            <path>
+              <item name="P2PCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="P2PCS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="p2pcs" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="p2pcs" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="p2pcs" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="p2pcs" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="p2pcs" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="reservation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PCS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="p2pcs" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="device.picker.selection" value="Nexus_S_API_26" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/P2PCS-83a460fb5819d78e2311811627e452f1bc965cd2" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.fourteenrows.p2pcs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fourteenrows.p2pcs" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.fourteenrows.p2pcs.UnitTests" />
+      <recent name="com.fourteenrows.p2pcs.activities.reservation.add_reservation.add_reservation_vehicle" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cmunaro\StudioProjects\P2PCS\app\src\main\java\com\fourteenrows\p2pcs\activities\reservation\add_reservation\add_reservation_vehicle" />
+      <recent name="C:\Users\cmunaro\StudioProjects\P2PCS\app\src\main\java\com\fourteenrows\p2pcs\activities\reservation\add_reservation" />
+      <recent name="C:\Users\cmunaro\StudioProjects\P2PCS\app\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="Date.nextDayOf" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fourteenrows.p2pcs.UnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fourteenrows.p2pcs.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="com.fourteenrows.p2pcs.UnitTests.Date" />
+      <option name="METHOD_NAME" value="nextDayOf" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTests in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p2pcs in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fourteenrows.p2pcs.IntegrationTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fourteenrows.p2pcs.IntegrationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.fourteenrows.p2pcs.IntegrationTests.IntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fourteenrows.p2pcs.IntegrationTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fourteenrows.p2pcs.IntegrationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.fourteenrows.p2pcs.IntegrationTests.IntegrationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntegrationTests.test" />
+        <item itemvalue="JUnit.IntegrationTests" />
+        <item itemvalue="Android JUnit.p2pcs in app" />
+        <item itemvalue="Android JUnit.UnitTests in app" />
+        <item itemvalue="Android JUnit.Date.nextDayOf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1890156b-09ac-4e86-aa6c-db98c37c78f5" name="Default Changelist" comment="" />
+      <created>1556612287157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556612287157</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Init recycle view">
+      <created>1556626769572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556626769573</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First recycle view implementation">
+      <created>1556633043545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556633043545</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Improve cards">
+      <created>1556644190998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556644190999</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/Lansaaa/P2PCS&#10;&#10;# Conflicts:&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/ReservationView.kt">
+      <created>1556644824182</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556644824182</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge branch 'master' of https://github.com/Lansaaa/P2PCS&#10;&#10;# Conflicts:&#10;#&#9;app/src/androidTest/java/com/fourteenrows/p2pcs/ExampleInstrumentedPassword.kt">
+      <created>1556644905672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556644905672</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix crash if user not logged in">
+      <created>1556645904144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556645904144</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix drawer overlaps">
+      <created>1556648442974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556648442974</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented RecycleView">
+      <created>1556657917554</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556657917554</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/Lansaaa/P2PCS&#10;&#10;# Conflicts:&#10;#&#9;app/src/main/res/layout/activity_reservation.xml">
+      <created>1556658622222</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556658622222</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Aggiunta base nuova prenotazione">
+      <created>1556732733263</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556732733263</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge branch 'master' of https://github.com/Lansaaa/P2PCS&#10;&#10;# Conflicts:&#10;#&#9;app/src/main/res/layout/activity_reservation.xml">
+      <created>1556733150275</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556733150275</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Some fix">
+      <created>1556737197295</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556737197296</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Initial carView">
+      <created>1556783817590</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1556783817590</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Initial firestore fetch">
+      <created>1556797690150</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1556797690150</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Total refactor">
+      <created>1556823914782</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1556823914782</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge branch 'master' of https://github.com/Lansaaa/P2PCS&#10;&#10;# Conflicts:&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/activities/authentication/login/LoginIView.kt&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/activities/authentication/login/LoginPresenter.kt&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/activities/authentication/login/LoginView.kt&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/activities/authentication/registration/RegistrationIView.kt&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/activities/authentication/registration/RegistrationPresenter.kt&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/activities/authentication/registration/RegistrationView.kt&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/model/IRepository.kt&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/model/ModelFirebase.kt&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/model/Repository.kt">
+      <created>1556826655494</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1556826655494</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Delete please">
+      <created>1556903026999</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556903027000</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge &amp;&amp; Delete cars">
+      <created>1556905584596</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556905584596</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fix insert car">
+      <created>1556906721931</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1556906721931</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Aggiunti fetch">
+      <created>1556963680190</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1556963680190</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge branch 'master' of https://github.com/Lansaaa/P2PCS&#10;&#10;# Conflicts:&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarInteractor.kt">
+      <created>1556964302299</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1556964302299</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add delete reservation">
+      <created>1556970207039</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1556970207039</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add check prenotations on car deletion">
+      <created>1556970695966</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1556970695967</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Qualche aggiunta">
+      <created>1556972187540</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1556972187540</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fix check delete car">
+      <created>1556973121417</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1556973121417</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Inizio fetch auto prenotabili">
+      <created>1556977917837</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1556977917837</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Improve get vehicle in add reservation">
+      <created>1556983135189</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556983135189</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Timepicker">
+      <created>1556987460588</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1556987460588</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Some fix">
+      <created>1556988535982</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1556988535982</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fix get final_availability">
+      <created>1557057744097</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1557057744097</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fix get auto disponibili">
+      <created>1557064632134</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1557064632134</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add deletion and checks&#10;TODO: Messagges">
+      <created>1557067552181</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1557067552181</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add pass indietro cid">
+      <created>1557142125333</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1557142125334</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Refactor getReservations">
+      <created>1557161414197</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1557161414197</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fix ModelDates">
+      <created>1557162022647</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1557162022647</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Fix get veicoli disponibili su reservation">
+      <created>1557164890869</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1557164890869</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Vari fix, set max time if null date su AddCarPresenter e addReservation">
+      <created>1557166826615</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1557166826616</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Minor fix">
+      <created>1557177265214</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1557177265214</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Walk around kotlin max date overflow">
+      <created>1557213609632</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1557213609633</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Aggiunta messaggi se nessun'auto disponibile">
+      <created>1557223937832</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1557223937833</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Aggiunta tests unità ed inizio integrazione">
+      <created>1557255338111</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1557255338111</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Android studio fà i capricci">
+      <created>1557257140451</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1557257140452</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Aggiunti test unità">
+      <created>1557260497903</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1557260497903</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Date_nextDayOf - 2019.05.08 at 10h 18m 01s.xml">
+      <configuration name="Date.nextDayOf" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="p2pcs_in_app - 2019.05.08 at 10h 32m 56s.xml">
+      <configuration name="p2pcs in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests - 2019.05.08 at 11h 16m 36s.xml">
+      <configuration name="IntegrationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests_test - 2019.05.08 at 11h 18m 04s.xml">
+      <configuration name="IntegrationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests_test - 2019.05.08 at 11h 20m 45s.xml">
+      <configuration name="IntegrationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests_test - 2019.05.08 at 11h 21m 36s.xml">
+      <configuration name="IntegrationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests_test - 2019.05.08 at 11h 27m 39s.xml">
+      <configuration name="IntegrationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests_test - 2019.05.08 at 11h 27m 54s.xml">
+      <configuration name="IntegrationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests_test - 2019.05.08 at 11h 28m 12s.xml">
+      <configuration name="IntegrationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests_test - 2019.05.08 at 11h 40m 11s.xml">
+      <configuration name="IntegrationTests.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49825174" visible="true" weight="0.27044535" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50174826" side_tool="true" weight="0.27044535" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Find" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3583916" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49959514" weight="0.49475524" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50040483" side_tool="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.4979757" weight="0.2972028" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4979757" weight="0.45804197" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.52272725" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32867134" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32867134" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.6695804" />
+      <window_info anchor="bottom" id="Metrics" order="12" visible="true" weight="0.32867134" />
+      <window_info anchor="right" id="Preview" order="0" weight="0.2631579" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.32955465" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.3263158" />
+      <window_info anchor="right" id="Module Dependencies" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="CodeMR" order="8" />
+      <window_info anchor="right" id="CodeMR Metrics" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27044535" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Find" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3583916" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49959514" weight="0.49475524" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50040483" side_tool="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.4979757" weight="0.94755244" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4979757" weight="0.32867134" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.62237763" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32867134" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32867134" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.6695804" />
+      <window_info anchor="bottom" id="Metrics" order="12" visible="true" weight="0.32867134" />
+      <window_info anchor="right" id="Preview" order="0" weight="0.2631579" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.3263158" />
+      <window_info anchor="right" id="Module Dependencies" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="CodeMR" order="8" />
+      <window_info anchor="right" id="CodeMR Metrics" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Add delete reservation" />
+    <MESSAGE value="Add check prenotations on car deletion" />
+    <MESSAGE value="Qualche aggiunta" />
+    <MESSAGE value="Fix check delete car" />
+    <MESSAGE value="Inizio fetch auto prenotabili" />
+    <MESSAGE value="Improve get vehicle in add reservation" />
+    <MESSAGE value="Timepicker" />
+    <MESSAGE value="Some fix" />
+    <MESSAGE value="Fix get final_availability" />
+    <MESSAGE value="Fix get auto disponibili" />
+    <MESSAGE value="Add deletion and checks&#10;TODO: Messagges" />
+    <MESSAGE value="Add pass indietro cid" />
+    <MESSAGE value="Refactor getReservations" />
+    <MESSAGE value="Fix ModelDates" />
+    <MESSAGE value="Fix get veicoli disponibili su reservation" />
+    <MESSAGE value="Vari fix, set max time if null date su AddCarPresenter e addReservation" />
+    <MESSAGE value="Minor fix" />
+    <MESSAGE value="Walk around kotlin max date overflow" />
+    <MESSAGE value="Aggiunta messaggi se nessun'auto disponibile" />
+    <MESSAGE value="Aggiunta tests unità ed inizio integrazione" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;app/src/main/java/com/fourteenrows/p2pcs/model/ModelFirebase.kt" />
+    <MESSAGE value="Androd studio fà i capricci" />
+    <MESSAGE value="Merge" />
+    <MESSAGE value="Android studio fà i capricci" />
+    <MESSAGE value="Aggiunti test unità" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunti test unità" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="document" />
+        <watch expression="((QuerySnapshot)it2).originalQuery" custom="com.google.firebase.firestore.QuerySnapshot" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/AddReservationContractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/AddReservationInteractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+          <folding>
+            <element signature="e#71#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/AddReservationPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="e#71#226#0" expanded="true" />
+            <element signature="e#1672#1703#1" expanded="true" />
+            <element signature="e#1705#1721#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/Vehicle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/PastReservationObject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/ReservationInteractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/add_reservation_vehicle/AddReservationVehicleInteractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/alertdialog/AlertEditDialog.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/add_car/AddCarInteractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/edit_car/EditCarInteractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/edit_car/EditCarView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/add_car/AddCarPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/CarMessage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/FetchedVehicle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycler_reservation_title_item.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarRecycleAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarContractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycleview_no_car_message.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_car.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="33" column="64" lean-forward="true" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarInteractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+          <folding>
+            <element signature="e#47#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_reservation.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/fourteenrows/p2pcs/UITest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1156">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/reservation/add_reservation/add_reservation_vehicle/AddReservationVehiclePresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/IntegrationTests/Firebase.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_reservation_vehicle.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ff64f15a3fd09024a6ebe572edd7854/jars/classes.jar!/com/google/firebase/auth/api/internal/zzap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="318" column="22" lean-forward="true" selection-start-line="318" selection-start-column="22" selection-end-line="318" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/lang/UnsupportedOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding>
+            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21105cb8b59a7fc8cdab835ddf12408f/jars/classes.jar!/com/google/android/gms/tasks/Task.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ff64f15a3fd09024a6ebe572edd7854/jars/classes.jar!/com/google/firebase/auth/AuthResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ff64f15a3fd09024a6ebe572edd7854/jars/classes.jar!/com/google/firebase/auth/FirebaseAuth.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+          <folding>
+            <element signature="e#2731#2732#0" expanded="true" />
+            <element signature="e#2817#2818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/ModelUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/ModelDates.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="e#38#164#0" expanded="true" />
+            <element signature="e#262#574#0" />
+            <element signature="e#627#745#0" />
+            <element signature="e#794#946#0" />
+            <element signature="e#1002#1213#0" />
+            <element signature="e#1400#1572#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/ModelValidator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/authentication/login/LoginView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/IntegrationTests/IntegrationTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#47#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/edit_car/EditCarPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycler_car_item.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-1214">
+          <caret line="36" column="45" selection-start-line="36" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycler_reservation_active_reservation_item.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/activities/car/CarView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests/Validator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests/User.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/fourteenrows/p2pcs/UnitTests/Date.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourteenrows/p2pcs/model/ModelFirebase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/fourteenrows/p2pcs/Login/Login.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

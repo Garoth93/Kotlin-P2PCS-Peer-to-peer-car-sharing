@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tripPeopleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/trip_people"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/slightlyWhite"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tripEndLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tripPeople"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="false"/>
+
+</com.google.android.material.textfield.TextInputLayout>

@@ -1,0 +1,185 @@
+<resources>
+    <string name="all_fields_required">Compila tutti i campi</string>
+    <string name="already_registered">Hai già un account? Accedi!</string>
+    <string name="blank_string">%1$s</string>
+    <string name="booster_amount">%1$s</string>
+    <string name="booster_already_active">Non puoi attivare nuovamente lo stesso booster mentre è già attivo</string>
+    <string name="booster_description">Descrizione: %1$s</string>
+    <string name="cancel">Annulla</string>
+    <string name="confirm">Conferma</string>
+    <string name="confirm_password">Conferma Password</string>
+    <string name="confirm_purchase">Conferma acquisto</string>
+    <string name="confirmation_reservation">Sei sicuro di voler eliminare questa prenotazione?</string>
+    <string name="confirmation_vehicle">Sei sicuro di voler eliminare quest\'auto?</string>
+    <string name="date">%1$s</string>
+    <string name="distance">Distanza: %1$s</string>
+    <string name="from">Da: %1$s</string>
+    <string name="editPwd">MODIFICA LA PASSWORD</string>
+    <string name="email">Email</string>
+    <string name="email_not_email">L\'email inserita non rappresenta una email</string>
+    <string name="email_already_in">Email già presente nel sistema</string>
+    <string name="error">Errore</string>
+    <string name="euro">€</string>
+    <string name="exp">- %1$d esperienza</string>
+    <string name="extra_prize">- c\'è anche un premio!</string>
+    <string name="field_required">Compila il campo</string>
+    <string name="forgot_password">Hai dimenticato la password?</string>
+    <string name="future_reservations">Prenotazioni attive</string>
+    <string name="gaia_coins">- %1$d GaiaCoins</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="loading">Caricamento dati…</string>
+    <string name="location_error">Si è verificato un errore nel tentativo di ottenere i dati</string>
+    <string name="login">Login</string>
+    <string name="look_for">Cerca</string>
+    <string name="look_for_people">Cerca partecipante</string>
+    <string name="missing_reservations">Non hai prenotazioni attive</string>
+    <string name="name">Nome</string>
+    <string name="name_edit">Modifica il nome</string>
+    <string name="no_account">Non hai un account? Registrati!</string>
+    <string name="no_quests">Nessuna missione da portare a termine</string>
+    <string name="not_enough_coins">Non hai abbastanza GaiaCoins</string>
+    <string name="not_registered">L\'email inserita non risulta essere collegata ad alcun account</string>
+    <string name="not_reservable">Non prenotabile dopo il %1$s</string>
+    <string name="no_active_reservation">Nessuna prenotazione attiva</string>
+    <string name="no_location">Nessuna corrispondenza trovata</string>
+    <string name="no_trip">Non è possibile portare a termine un viaggio con gli estremi inseriti</string>
+    <string name="no_trip_done">Nessun viaggio eseguito</string>
+    <string name="no_vehicles">Nessuna auto presente</string>
+    <string name="no_vehicles_available">Nessuna auto disponibile</string>
+    <string name="not_verified">"Account non verificato, controlla la tua casella email"</string>
+    <string name="number_of_seats">La tua auto deve avere almeno un posto</string>
+    <string name="ok">OK</string>
+    <string name="ongoing_reservation">Non puoi eliminare questa prenotazione in quanto in corso</string>
+    <string name="password">Password</string>
+    <string name="password_change">Controlla la tua casella email per procedere con il cambio della password</string>
+    <string name="password_length">La password deve essere di almeno 6 caratteri</string>
+    <string name="passwords_not_matching">Le password non combaciano</string>
+    <string name="password_reset">Reset Password</string>
+    <string name="past_reservations">Prenotazioni passate</string>
+    <string name="plate">Targa</string>
+    <string name="plate_already_in">Targa già presente nel sistema</string>
+    <string name="plate_not_plate">La targa inserita non rappresenta una targa</string>
+    <string name="purchase">Comprare l\'item per %1$d dei tuoi %2$d GaiaCoins?</string>
+    <string name="quest_change">Cambio missione</string>
+    <string name="quest_cost_change">Sei sicuro di voler cambiare questa missione per %1$d dei tuoi %2$d GaiaCoins?
+    </string>
+    <string name="quest_description">Stato: %1$s</string>
+    <string name="quest_free_change">Sei sicuro di voler cambiare questa missione? (la prima volta della giornata è
+        gratuita)
+    </string>
+    <string name="quest_objective">%1$s</string>
+    <string name="register">Registrati</string>
+    <string name="registration_successful">Registrazione avvenuta correttamente! Controlla la tua casella email per
+        continuare
+    </string>
+    <string name="reset">Reset</string>
+    <string name="reset_email_sent">Email di reset inviata</string>
+    <string name="reservation_confirm">Inserisci prenotazione</string>
+    <string name="reservation_date">Data</string>
+    <string name="reservation_delete">Elimina prenotazione</string>
+    <string name="reservation_fill">Inserisci la data e la fascia della prenotazione prima di poter selezionare un
+        veicolo
+    </string>
+    <string name="reservation_successful">Prenotazione inserita correttamente</string>
+    <string name="reservation_vehicle">Auto</string>
+    <string name="reservation_zone">Fascia</string>
+    <string name="rewards">Ricompense:</string>
+    <string name="seats">Numero posti</string>
+    <string name="success">Evviva!</string>
+    <string name="success_change">Acquisto avvenuto con successo</string>
+    <string name="surname">Cognome</string>
+    <string name="surname_edit">Modifica il cognome</string>
+    <string name="time">Durata: %1$s</string>
+    <string name="time_zone">%1$s</string>
+    <string name="to">A: %1$s</string>
+    <string name="total_cost">Costo totale: %1$s €</string>
+    <string name="trip">Viaggia</string>
+    <string name="trip_cost">Costo viaggio:</string>
+    <string name="trip_data">Per portare a termine il viaggio hai impiegato %1$s, percorrendo %2$s</string>
+    <string name="trip_end">Punto di arrivo</string>
+    <string name="trip_people">Partecipante</string>
+    <string name="trip_start">Punto di partenza</string>
+    <string name="vehicle">%1$s</string>
+    <string name="vehicle_available">Prenotabile</string>
+    <string name="vehicle_confirm">Inserisci auto</string>
+    <string name="vehicle_date">Data fine disponibilità</string>
+    <string name="vehicle_delete">Elimina auto</string>
+    <string name="vehicle_delete_error_db">Si è verificato un errore nel tentativo di eliminare l\'auto</string>
+    <string name="vehicle_delete_error_reservations">Non puoi eliminare l\'auto in quanto presenta prenotazioni attive
+    </string>
+    <string name="vehicle_delete_success">Auto eliminata correttamente</string>
+    <string name="vehicle_edit">Modifica auto</string>
+    <string name="vehicle_edit_success">Auto modificata con successo</string>
+    <string name="vehicle_insert">Auto inserita con successo</string>
+    <string name="vehicle_instant">Disponibilità attuale</string>
+    <string name="vehicle_matriculation">Immatricolazione</string>
+    <string name="vehicle_model">Modello</string>
+    <string name="vehicle_not_editable">Non puoi modificare il veicolo mentre ci sono prenotazioni attive su di esso
+    </string>
+    <string name="quest_status">%1$s su %2$s</string>
+    <string name="vehicle_plate">Targa</string>
+    <string name="vehicle_seats">Numero posti</string>
+    <string name="vehicle_unavailable">Non prenotabile</string>
+    <string name="version">Versione 1.0.0</string>
+    <string name="wait">Attendi</string>
+    <string name="welcome">Benvenuto!</string>
+    <string name="wrong_credentials">Credenziali errate</string>
+    <string name="quest_done">Hai portato a termine una missione!</string>
+    <string name="trip_info">%1$s in %2$s</string>
+    <string name="trip_info_1">%1$s in %2$s assieme ad un\'altra persona</string>
+    <string name="trip_info_plus">%1$s in %2$s assieme ad altre %3$s persone</string>
+    <string name="coins">%1$s GaiaCoins</string>
+    <string name="weekly">%1$S WeekPoints</string>
+    <string name="obtained">Hai ottenuto:</string>
+    <string name="_0">0</string>
+    <string name="errore_immatricolazione">Data immatricolazione non corretta</string>
+    <string name="title_activity_test">test</string>
+    <string name="immatricolazione">Immatricolazione</string>
+    <string name="moficaLanno">Modifica l\'anno</string>
+    <string name="modificaNumeroDiPosti">Modifica il numero di posti</string>
+    <string name="numeroDiPosti">Numero di posti</string>
+    <string name="modificaTarga">Modifica targa</string>
+    <string name="targa">Targa</string>
+    <string name="annoNonValido">Anno non valido</string>
+    <string name="nonPrenotabile">Non prenotabile</string>
+    <string name="prenotabile">Prenotabile</string>
+    <string name="errorNonPuoiCancellare">Non puoi rimmuovere il veicolo mentre ci sono prenotazioni</string>
+    <string name="evvivaBooster">Evviva!</string>
+    <string name="booster_activated">Booster attivato</string>
+    <string name="end_time">Orario fine</string>
+    <string name="start_time">Orario inizio</string>
+    <string name="start_time_first">Seleziona un orario di inizio prima di selezionarne uno di fine</string>
+    <string name="end_after_time">Seleziona un\'orario successivo a quello di inizio</string>
+    <string name="fifteen">La durata minima per una prenotazione è di 15 minuti</string>
+    <string name="vehicle_model_edit">Modifica il modello</string>
+    <string name="amazon_coupon">Hai ottenuto un coupon amazon! %1$s</string>
+    <string name="location">Posizione</string>
+    <string name="modificaPosizione">Modifica posizione</string>
+    <string name="yea_conferma">Abbiamo chiesto al proprietario di confermare la prenotazione</string>
+    <string name="noLocation">Posizione non trovata</string>
+    <string name="reservation_archive">Archivia prenotazione</string>
+    <string name="trip_archive">Archivia viaggio</string>
+    <string name="reservation_archived">Prenotazione archiviata correttamente</string>
+    <string name="confirmation_archiviation_reservation">Sei sicuro di voler archiviare questa prenotazione?</string>
+    <string name="confirmation_archiviation_trip">Sei sicuro di voler archiviare questo viaggio?</string>
+    <string name="number_seasts">%1$s posti</string>
+    <string name="such_distance">A %1$s km di distanza</string>
+    <string name="immatricolata">Immatricolazione: %1$s</string>
+    <string name="much_distance">A meno di 1 km di distanza</string>
+    <string name="made">Creato con amore da:</string>
+    <string name="love_sex_american_express">
+        Bianchin Daniele\n
+        Brunetta Alessio\n
+        Lanza Davide\n
+        Munaro Cristiano\n
+        Romito Sara\n
+        Sartori Elisa
+    </string>
+    <string name="car_position">Posizione auto</string>
+    <string name="pending">Questa prenotazione è in attesa di essere approvata</string>
+    <string name="active_booster">Booster attivo</string>
+    <string name="no_boosters">Nessun booster presente. Acquistane nello shop!</string>
+    <string name="availability">Disponibilità</string>
+    <string name="shop">Shop</string>
+    <string name="booster">Booster</string>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_reservation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start"
+        android:background="@color/slightlyWhite">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/editCar">
+
+            <include
+                    android:id="@+id/appBar"
+                    layout="@layout/app_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/editVehiclePlateLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/vehicle_plate"
+                    app:boxBackgroundMode="outline"
+                    app:boxBackgroundColor="@color/slightlyWhite"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintBottom_toTopOf="@id/editVehicleModelLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editVehiclePlate"
+                        android:inputType="text"
+                        android:maxLength="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/editVehicleModelLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/vehicle_model"
+                    app:boxBackgroundMode="outline"
+                    app:boxBackgroundColor="@color/slightlyWhite"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintBottom_toTopOf="@id/editVehicleSeatsLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editVehicleModel"
+                        android:inputType="text"
+                        android:maxLength="20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/editVehicleSeatsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/vehicle_seats"
+                    app:boxBackgroundMode="outline"
+                    app:boxBackgroundColor="@color/slightlyWhite"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintBottom_toTopOf="@id/editVehicleDateLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editVehicleSeats"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/editVehicleDateLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/vehicle_date"
+                    app:boxBackgroundMode="outline"
+                    app:boxBackgroundColor="@color/slightlyWhite"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editVehicleDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:focusableInTouchMode="false"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/clearEndDate"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icon_clear"
+                    android:background="@drawable/icon_clear"
+                    app:layout_constraintBottom_toTopOf="@+id/editVehicleMillis"
+                    app:layout_constraintTop_toTopOf="@+id/editVehicleDateLayout"
+                    app:layout_constraintEnd_toEndOf="@+id/editVehicleDateLayout"
+                    android:layout_marginEnd="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/editVehicleMillis"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="invisible"
+                    app:layout_constraintTop_toBottomOf="@id/editVehicleDateLayout"
+                    app:layout_constraintStart_toStartOf="@id/editVehicleDateLayout"
+                    app:layout_constraintEnd_toEndOf="@id/editVehicleDateLayout"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/editVehicleInstant"
+                    android:text="@string/vehicle_instant"
+                    android:textSize="13sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintTop_toBottomOf="@id/editVehicleMillis"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/editVehicleConfirm"
+                    android:text="@string/vehicle_edit"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:layout_constraintTop_toBottomOf="@id/editVehicleInstant"
+                    app:layout_constraintStart_toStartOf="@id/editVehicleInstant"
+                    app:layout_constraintEnd_toEndOf="@id/editVehicleInstant"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    style="@style/Widget.MaterialComponents.Button"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

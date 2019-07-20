@@ -1,0 +1,105 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/cardView"
+        app:layout_anchorGravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border_grey">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/iid"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    tools:visibility="gone"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@color/moreThanGrey"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/shopImage"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/name"
+                    style="@style/textView"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/poppins_semibold"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/description"
+                    style="@style/textView"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center_horizontal|center_vertical"
+                android:id="@+id/linearLayoutCompat14">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent    "
+                    app:layout_constraintBottom_toTopOf="@id/shop"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cost"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center_vertical"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/coins"
+                        android:background="@drawable/gaiacoin"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/shop"
+                    android:minWidth="50dp"
+                    android:maxWidth="50dp"
+                    android:minHeight="50dp"
+                    android:maxHeight="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    app:srcCompat="@drawable/ic_shopping_cart_black_24dp"
+                    android:background="@drawable/circle_border_green"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_margin="5dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
